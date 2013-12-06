@@ -1,0 +1,30 @@
+Package: Clustericat
+Type: Package
+Title: This package performs clustering for categorical dataset.
+Version: 0.5
+Date: 2012-10-02
+Author: Matthieu Marbac & Christophe Biernacki & Vincent Vandewalle
+Maintainer: Matthieu Marbac <matthieu.marbac-lourdelle@inria.fr>
+Description: This package performs clustering for categorical data-set by the
+    block model extension of the latent class model. It contains a function
+    clustericat() which perform clustering on categorical data-set and returns
+    object of appropriate class (refer to documentation of clustcat). The
+    package also provide utility function like summary(),
+    summary_dependencies() and plot to summarize results, to present the main
+    conditional dependencies, to visualize the parameters respectively.
+License: GPL (>=2)
+Copyright: Gael Guennebaud, Benoit Jacob are the authors of Eigen (http://eigen.tuxfamily.org) under MPL-2 (See inst/COPYRIGHTS file for more details).
+Depends:
+    Rcpp (>= 0.9.9),
+    R (>= 2.14),
+    methods
+LinkingTo: Rcpp
+Collate:
+    'Clustericat.R'
+    'optionclasses.R'
+    'tools.R'
+    'Clustericatclustering.R'
+    'summary_dependencies.R'
+    'summary.R'
+    'plot.R'
+Packaged: 2012-11-02 16:25:33 UTC; matthieu
