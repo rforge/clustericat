@@ -7,10 +7,10 @@ Author: Matthieu Marbac & Christophe Biernacki & Vincent Vandewalle
 Maintainer: Matthieu Marbac <matthieu.marbac-lourdelle@inria.fr>
 Description: This package performs clustering for categorical data-set by the
     block model extension of the latent class model. It contains a function
-    clustericat() which perform clustering on categorical data-set and returns
+    clustericat() performing the clustering on categorical data-set and returns an
     object of appropriate class (refer to documentation of clustcat). The
-    package also provide utility function like summary(),
-    summary_dependencies() and plot to summarize results, to present the main 
+    package also provides tool functions like summary(),
+    summary_dependencies() and plot() to summarize results, to present the main 
     conditional dependencies, to visualize the parameters respectively.
 License: GPL (>=2)
 Copyright: Gael Guennebaud, Benoit Jacob are the authors of Eigen (http://eigen.tuxfamily.org) under MPL-2 (See inst/COPYRIGHTS file for more details).
