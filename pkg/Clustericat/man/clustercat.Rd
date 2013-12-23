@@ -23,9 +23,16 @@
 }
 \description{
   This function performs clustering for categorical data
-  using the block model extension of the latent class
-  model.
+  using the conditional correlated mixture model.
 }
+
+\references{
+  Marbac M., Biernacki C., Vandewalle V., 2014. 
+  "Model-based clustering for conditionally correlated categorical data". Rapport de recherche INRIA RR-8232.
+}
+
+
+
 \examples{
 # Simple example with binary data
 data("dentist")
