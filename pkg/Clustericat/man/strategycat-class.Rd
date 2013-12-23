@@ -17,3 +17,6 @@
   \code{\link{partitioncat}} is called.} }
 }
 
+\examples{
+  getSlots("strategycat")
+}

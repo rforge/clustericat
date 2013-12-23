@@ -13,5 +13,5 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Package
-PackagePath: pkg
+PackagePath: pkg/Clustericat
 PackageInstallArgs: --no-multiarch

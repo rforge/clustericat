@@ -10,4 +10,7 @@
   object containing all the results sorted in ascending
   order according to the number of classes.} }
 }
+\examples{
+  getSlots("clustcat")
+}
 

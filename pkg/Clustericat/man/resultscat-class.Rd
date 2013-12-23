@@ -16,4 +16,7 @@
   \item{parameters}{A \code{\linkS4class{parameterscat}}
   object containing the estimated parameters.} }
 }
+\examples{
+  getSlots("resultscat")
+}
 

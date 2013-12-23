@@ -18,4 +18,7 @@
   b of the class k.} \item{proportions}{Vector of classes
   proportions.} }
 }
+\examples{
+  getSlots("parameterscat")
+}
 
