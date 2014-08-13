@@ -1,6 +1,6 @@
 Package: Clustericat
 Type: Package
-Title: This package performs clustering for categorical dataset.
+Title: This package performs clustering for categorical dataset. 
 Version: 0.5
 Date: 2012-10-02
 Author: Matthieu Marbac & Christophe Biernacki & Vincent Vandewalle
